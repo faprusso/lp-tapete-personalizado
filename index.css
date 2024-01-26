@@ -1,0 +1,86 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    /* background-color: #024D6C */
+}
+
+.background_color {
+    background-color: #024D6C;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    height: 10px;
+}
+
+/* .bg-image {
+    background: linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3)), url('/fundo_tapete_personalizado.jpg');
+    background-size: cover;
+    background-position: center;
+    background-position: no-repeat;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+} */
+
+.bg-main-section {
+    background-image: url('/fundo_tapete_personalizado.jpg');
+    background-size: cover;
+    background-position: center right;
+  }
+
+.form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 600px;
+    padding: 20px;
+    border-radius: 5px;
+    background: linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3));
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.form-input {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    outline: none;
+    font-size: 16px;
+    transition: all 0.3s ease-in-out;
+}
+
+.bg-custom-yellow {
+    background-color: #F6ECDD;
+}
+    /* Custom styles for the vertical timeline */
+        .timeline-step {
+            position: relative;
+            padding-left: 2.5rem; /* Adjusted padding for alignment */
+            margin-bottom: 1.25rem;
+        }
+
+        .timeline-step::before {
+            content: '';
+            position: absolute;
+            top: 0.5rem; /* Adjusted to align with the middle of the text */
+            left: 0;
+            width: 1rem;
+            height: 1rem;
+            background: #60A5FA; /* Blue-400 */
+            border-radius: 9999px;
+        }
+
+.steps-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10%;
+}
