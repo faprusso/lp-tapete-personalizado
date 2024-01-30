@@ -84,3 +84,38 @@ body {
     margin-bottom: 10px;
     margin-left: 10%;
 }
+
+@media (max-width: 550px) {
+    .form-input {
+        font-size: 14px; /* Reduzir o tamanho da fonte */
+        padding: 8px; /* Reduzir o padding */
+        margin: 3px 0; /* Reduzir a margem */
+    }
+
+   
+    .max-w-4xl {
+            flex-direction: column;
+        }
+    
+    #steps-img, #steps-list {
+            width: 100%;
+            padding: 10px; /* Ajustar o padding conforme necessário */
+            margin: 5px 15px; 
+        }
+    #desc {
+        width: 100%; /* Ajustar a largura para ocupar todo o espaço disponível */
+        padding: 10px; /* Ajustar o padding conforme necessário */
+        margin: 0; /* Ajustar a margem conforme necessário */
+    }
+    #desc-img {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }   
+    #desc-size {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    } 
+
+}

@@ -15,13 +15,14 @@
 
 <body>
   <div class="bg-main-section text-center py-6 text-white relative">
+<!-- header -->
     <header class=" mb-3  flex  items-center">
       <div class="max-w-7xl mx-auto px-4">
         <h1 class="text-3xl font-bold text-white ">
           <img src="./img/omjoy_logo.png" alt="Om Joy" width="40" height="40">
         </h1>
     </header>
-
+<!-- primeira dobra -->
     <div class="bg-blue bg-opacity-50 absolute inset-0">
     </div>
     <div class="relative z-10 max-w-4xl mx-auto px-6">
@@ -35,7 +36,7 @@
         Durabilidade e qualidade garantida
       </p>
     </div>
-
+<!-- form -->
     <div class="mt-4 flex justify-center relative z-10">
       <form id='form' class="form">
         <input class="form-input px-4 py-2 mr-2 bg-white" placeholder="Seu nome" type="text" />
@@ -51,13 +52,13 @@
   </div>
 
 
-  <div class="bg-white py-12">
+  <div id='steps-container' class="bg-white py-12">
     <div class="max-w-4xl mx-auto flex">
-      <div class="w-1/2">
+      <div id='steps-img' class="w-1/2">
         <img alt="Woman holding a phone displaying the logo" class="mx-auto" height="700"
           src="./img/img_tapete_personalizado.jpg" width="250" />
       </div>
-      <div class="w-1/2 pl-6">
+      <div id='steps-list' class="w-1/2 pl-6">
         <h2 class="text-3xl font-bold text-gray-800">
           Etapas do processo:
         </h2>
@@ -127,13 +128,15 @@
       </div>
     </div>
   </div>
-  <div class="bg-custom-yellow py-12">
+
+<!-- descrição: cores e tamanhos -->
+  <div id="desc" class="bg-custom-yellow py-12">
     <div class="max-w-4xl mx-auto">
       <h2 class="text-3xl font-bold text-gray-800">
         Cores do tapete disponíveis
       </h2>
 
-      <div class="flex justify-center space-x-4 mt-8">
+      <div id="desc-img" class="flex justify-center space-x-4 mt-8">
         <div class="flex flex-col items-center">
           <img alt="Placeholder image with a black textured background" class="mb-2" height="100"
             src="./img/tapete_preto.jpg" width="100" />
@@ -166,18 +169,18 @@
       <h2 class="text-3xl font-bold text-gray-800 mt-4">
         Tamanhos disponíveis
       </h2>
-      <div class="flex flex-col items-start">
-        <div class="flex items-center">
+      <div id="desc-size" class="flex flex-col items-start">
+        <div id="desc-size"  class="flex items-center">
           <img src="./img/tapete_200cm.png" alt="Imagem 1" width="350" height="100">
           <span class="ml-2">Tamanho padrão e mais recomendado. Funciona para pessoas mais altas, sendo que o ideal é
             que o mat tenha 5-10cm a mais do que a altura do praticante.</span>
         </div>
-        <div class="flex items-center">
+        <div id="desc-size" class="flex items-center">
           <img src="./img/tapete_165cm.png" alt="Imagem 1" width="350" height="100">
           <span class="ml-2">Tamanho padrão e mais recomendado. Funciona para pessoas mais altas, sendo que o ideal é
             que o mat tenha 5-10cm a mais do que a altura do praticante.</span>
         </div>
-        <div class="flex items-center">
+        <div id="desc-size" class="flex items-center">
           <img src="./img/tapete_125cm.png" alt="Imagem 1" width="350" height="100">
           <span class="ml-2">Tamanho padrão e mais recomendado. Funciona para pessoas mais altas, sendo que o ideal é
             que o mat tenha 5-10cm a mais do que a altura do praticante.</span>
@@ -276,7 +279,7 @@
   </div>
   <div class="bg-teal-800 py-12 text-white">
     <div class="max-w-4xl mx-auto">
-      <h2 class="text-3xl font-bold">
+      <h2 class="mx-3 text-3xl font-bold">
         Por que a Om Joy
       </h2>
       <div class="flex mt-6">
@@ -309,12 +312,12 @@
 
   <div class="bg-gray-500 py-12 text-white">
     <div class="max-w-4xl mx-auto">
-      <h2 class="text-3xl font-bold">
+      <h2 class="mx-3 text-3xl font-bold">
         Perguntas Frequentes
       </h2>
       <div class="mt-6">
         
-        <div class="mt-6"">
+        <div class="mx-3 mt-6"">
           <p class="text-lg pl-3 mb-2">
             <bold>Posso fazer menos de 10 unidades?</bold>
           </p>
@@ -322,7 +325,7 @@
             A quantidade mínima é de 10 peças, porém, eventualmente podemos avaliar a viabilidade de produção de uma quantia menor. Em tais situações, o preço por peça costuma ficar 25-35% maior do que seria para a quantidade mínima de 10 unidades.
           </p>
         </div>
-        <div class="mt-6"">
+        <div class="mx-3 mt-6"">
           <p class="text-lg pl-3 mb-2">
             <bold>Existem outras medidas de tapete?</bold>
           </p>
@@ -331,7 +334,7 @@
           </p>
         </div>
 
-        <div class="mt-6"">
+        <div class="mx-3 mt-6"">
           <p class="text-lg pl-3 mb-2">
             <bold>Posso comprar o tapete em outro lugar e pedir para vocês estamparem?</bold>
           </p>
@@ -340,7 +343,7 @@
           </p>
         </div>
 
-        <div class="mt-6"">
+        <div class="mx-3 mt-6"">
           <p class="text-lg pl-3 mb-2">
             <bold>É possível estampar toda a superfície do tapete?</bold>
           </p>
@@ -349,7 +352,7 @@
           </p>
         </div>
 
-        <div class="mt-6"">
+        <div class="mx-3 mt-6"">
           <p class="text-lg pl-3 mb-2">
             <bold>O tipo de estampa de vocês é igual ao silk?</bold>
           </p>
@@ -358,7 +361,7 @@
           </p>
         </div>
 
-        <div class="mt-6"">
+        <div class="mx-3 mt-6"">
           <p class="text-lg pl-3 mb-2">
             <bold>Vocês faturam para prazos maiores?</bold>
           </p>
@@ -367,7 +370,7 @@
           </p>
         </div>
 
-        <div class="mt-6"">
+        <div class="mx-3 mt-6"">
           <p class="text-lg pl-3 mb-2">
             <bold>Qual o prazo de produção?</bold>
           </p>
